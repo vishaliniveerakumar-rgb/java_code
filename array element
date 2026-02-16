@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int n;
+        int[]a=new int[5];
+        Scanner in =new Scanner(System.in);
+        n=in.nextInt();
+        for(i=0;i<n;i++){
+            a[i]=in.nextInt();
+        }
+        System.out.println("\n Array element:\n");
+        for(i=0;i<0;i++)
+        {
+             System.out.println(a[i]);
+        }
+    }
+}
+
+
+import java.util.Scanner;
