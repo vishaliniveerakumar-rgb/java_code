@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+    Scanner in = new Scanner (System.in);
+    int percentage =in.nextInt();
+     System.out.println("enter the percentage:");
+    int attendence =in.nextInt();
+    System.out.println("enter the attendence");
+    if(attendence>=85 && percentage>=90){
+    System.out.println("enter the destination");
+    }
+     else if(attendence>=70 && percentage>=80){
+    System.out.println("enter the frist class");
+     }
+     else if(attendence>=60 && percentage>=70){
+    System.out.println("enter  the second class");
+     }
+     else if(attendence>=50 && percentage>=75){
+    System.out.println("pass");
+     }
+     else{
+      System.out.println("fail");
+     }
+    }
+}
+
