@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("enter the no of student placed in CSE:");
+         int CSE =in.nextInt();
+        System.out.println("enter the no of student placed in ECE:");
+       int ECE =in.nextInt();
+        System.out.println("enter the no of student placed in MECH:");
+       int MECH =in.nextInt();
+       if(CSE>0 || ECE>0 || MECH>0){
+       else if(CSE>ECE && CSE>MECH)
+       {
+       System.out.println("Highest placement"+"CSE");
+       }
+       else if (ECE>CSE && ECE>MECH)
+       {
+       System.out.println("Highest placement"+"ECE");
+       }
+       else if (MECH>ECE && MECH>ECE)
+       {
+       System.out.println("Highest placement"+"MECH");
+       }
+       else
+       {
+       System.out.println("input is invalid");
+       }
+    }
+}                               
