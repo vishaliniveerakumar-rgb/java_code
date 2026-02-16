@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        int c;
+    Scanner in = new Scanner (System.in);
+    System.out.println("enter the mark:");
+    c = in.nextInt();
+    if(((c%5)==0)&&((c%7)==0))
+    System.out.println(c+"divisible.by 5&7");
+    else
+    System.out.println(c+"may not be divisible.by 5&7");
+    
+    }
+}
