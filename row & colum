@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        // int r;
+        // int c;
+        System.out.println("Enter the row");
+        int r=in.nextInt();
+        System.out.println("Enter the colum");
+        int c=in.nextInt();
+        int[][]s=new int[r][c];
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                s[i][j]=in.nextInt();
+            }
+        }
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                System.out.println(s[i][j]);
+            }
+        }
+    }
+}
