@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Taking decimal inputs
+        System.out.print("Enter first decimal number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter second decimal number: ");
+        int num2 = sc.nextInt();
+
+        // XOR operation
+        int result = num1 ^ num2;
+
+        // Display result
+        System.out.println("XOR of " + num1 + " and " + num2 + " is: " + result);
+
+        sc.close();
+    }
+}
+
